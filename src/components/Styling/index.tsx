@@ -21,7 +21,7 @@ const Styling = ({ h1, github, vercel }: StylingProp) => {
       <Box
         sx={{
           padding: 4,
-          backgroundColor: '#EDEAD0',
+          backgroundColor: '#d09494',
           borderRadius: 2,
           boxShadow: 4,
           textAlign: 'center',

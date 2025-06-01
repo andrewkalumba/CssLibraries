@@ -21,12 +21,14 @@ export default function Home() {
           borderRadius: 8,
           boxShadow: 10,
           border: '2px solid #888',
-          backgroundColor: '#f5f5f5',
+          backgroundColor: '#d09494',
           textAlign: 'center',
-          width: '100%',
+          width: '100vh',
+          height: '50vh',
+          margin: '30px',
         }}
       >
-        <Typography variant="h5" gutterBottom sx={{ fontWeight: 700 }}>
+        <Typography variant="h5" sx={{ fontWeight: 700, marginBottom: '30px' }}>
           Andrew's Assignments
         </Typography>
 
@@ -39,6 +41,9 @@ export default function Home() {
                 sx={{
                   backgroundColor: '#1D2D44',
                   color: '#fff',
+                  padding: '20px',
+                  borderRadius: '16px',
+                  fontSize:'1.2rem',
                   '&:hover': {
                     backgroundColor: '#922c5e',
                   },
@@ -51,7 +56,7 @@ export default function Home() {
           ))}
         </Stack>
       </Box>
-    </Container>
+    </Container >
   );
 }
 
