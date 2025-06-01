@@ -37,10 +37,10 @@ export default function Home() {
                 variant="contained"
                 fullWidth
                 sx={{
-                  backgroundColor: '#1976d2',
+                  backgroundColor: '#1D2D44',
                   color: '#fff',
                   '&:hover': {
-                    backgroundColor: '#115293',
+                    backgroundColor: '#922c5e',
                   },
                   textTransform: 'capitalize',
                 }}

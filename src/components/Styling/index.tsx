@@ -21,7 +21,7 @@ const Styling = ({ h1, github, vercel }: StylingProp) => {
       <Box
         sx={{
           padding: 4,
-          backgroundColor: 'background.paper',
+          backgroundColor: '#EDEAD0',
           borderRadius: 2,
           boxShadow: 4,
           textAlign: 'center',
@@ -55,12 +55,12 @@ const Styling = ({ h1, github, vercel }: StylingProp) => {
             fontWeight: 600,
             fontSize: '1rem',
             borderRadius: '12px',
-            backgroundColor: '#AF3B6E',
+            backgroundColor: '#1D2D44',
+            
             '&:hover': {
               backgroundColor: '#922c5e',
             },
-          }}
-        >
+          }}>
           Back
         </Button>
       </Box>
