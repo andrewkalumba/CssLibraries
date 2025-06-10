@@ -2,7 +2,7 @@
 import Styling from "@/components/Styling"
 const SASS = () => {
     return (
-        <Styling h1={"Sass"} github="git@github.com:andrewkalumba/healthcare.git" vercel="https://vercel.com/andrewkalumbas-projects/healthcare/HHPSoM7xSkrvEZqiYKQ6WUZZbwwq" />
+        <Styling h1={"Sass"} github="git@github.com:andrewkalumba/healthcare.git" vercel="https://healthcare-95hvznp2t-andrewkalumbas-projects.vercel.app" />
     )
 }
 export default SASS
