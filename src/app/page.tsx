@@ -14,7 +14,7 @@ export default function Home() {
   ];
 
   return (
-    <Container maxWidth="sm" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <Container maxWidth="sm" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
       <Box
         sx={{
           p: 4,
@@ -26,6 +26,7 @@ export default function Home() {
           width: '100vh',
           height: '50vh',
           margin: '30px',
+      
         }}
       >
         <Typography variant="h5" sx={{ fontWeight: 700, marginBottom: '30px' }}>
@@ -34,7 +35,7 @@ export default function Home() {
 
         <Stack direction="column" spacing={2} mt={2}>
           {Assignments.map((item, index) => (
-            <Link key={index} href={item.url} passHref>
+            <Link key={index} href={item.url}>
               <Button
                 variant="contained"
                 fullWidth
